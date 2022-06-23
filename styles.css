@@ -218,7 +218,7 @@ header {
 
 .main-slogan {
   transform: translateX(-2000px);
-  animation: main-slogan 3s forwards 1s;
+  animation: main-slogan 2s forwards 3s;
 }
 
 @keyframes main-slogan {
@@ -255,11 +255,14 @@ header {
   width: 400px;
   margin-bottom: 1rem;
   object-fit: cover;
-
   background-repeat: no-repeat;
-
   aspect-ratio: 1 / 1;
   margin-right: 2rem;
+}
+
+.container__content--title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .container__content--info {
@@ -267,11 +270,6 @@ header {
   margin-bottom: 1rem;
   text-align: center;
   width: 100%;
-}
-
-.container__content--title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
 }
 
 /*Galerie*/
@@ -385,6 +383,14 @@ section#contact {
   color: red;
   border: 2px solid red;
   transition: all 0.5 ease;
+}
+.btn:hover{
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  border: 2px solid white;
+
+  
 }
 #contact {
   display: flex;
