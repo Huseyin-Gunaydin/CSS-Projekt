@@ -218,7 +218,7 @@ header {
 
 .main-slogan {
   transform: translateX(-2000px);
-  animation: main-slogan 2s forwards 3s;
+  animation: main-slogan 1s forwards 2s;
 }
 
 @keyframes main-slogan {
