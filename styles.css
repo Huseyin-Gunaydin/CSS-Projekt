@@ -38,6 +38,9 @@ h4 {
 /*navbar*/
 
 header {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   height: 80px;
   width: 100%;
@@ -46,11 +49,9 @@ header {
 }
 
 .logo {
-  color: #fff;
-  font-size: 2rem;
-  line-height: 80px;
-  padding: 0 50px;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
 }
 
 .logo img {
@@ -101,6 +102,14 @@ header {
   .checkbtn {
     display: block;
   }
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .logo {
+margin-left: 40%;
+  }
+
   .nav-link {
     position: fixed;
     width: 100%;
@@ -127,6 +136,12 @@ header {
     left: 0;
   }
 }
+
+
+
+
+
+
 /* END NAVBAR*/
 
 /** MAIN SECTION **/
